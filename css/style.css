@@ -1,0 +1,75 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Righteous', cursive;
+}
+
+.link a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+table {
+    min-width: max-content;
+}
+
+.action {
+    height: auto;
+}
+
+.detail {
+    margin-right: 8px;
+}
+
+.edit-btn {
+    margin-right: 8px;
+}
+
+@media (max-width: 575.98px) {
+ 
+    .detail {
+        display: flex;
+        align-items: center;
+        min-height: 24px;
+        height: 100%;
+        justify-content: center;
+        margin-right: 8px;
+    }
+
+    .edit-btn {
+        display: flex;
+        align-items: center;
+        min-height: 24px;
+        height: 100%;
+        justify-content: center;
+        margin-right: 8px;
+    }
+
+    .delete-btn {
+        display: flex;
+        align-items: center;
+        min-height: 24px;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .table-wrapper {
+        overflow-y: scroll;
+        overflow-x: scroll;
+        height: fit-content;
+        }
+   
+}
+
+@media (max-width: 991.98px) { 
+    .table-wrapper {
+        overflow-y: scroll;
+        overflow-x: scroll;
+        height: fit-content;
+        }
+
+}

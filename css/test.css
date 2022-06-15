@@ -1,0 +1,32 @@
+html {
+    background: url('../img/bg/bg-out.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    background-color: inherit;
+    overflow: hidden;
+}
+
+.card-login {
+    max-width: 400px;
+    width: 100%;
+}
+
+.full-width {
+    min-height: 500px;
+    height: 100%;
+}
+
+form {
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+}
+
+@media (max-width: 575.98px) {
+    form {
+        width: 90%;
+    }
+}

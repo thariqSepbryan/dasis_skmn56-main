@@ -1,0 +1,56 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: #333;
+    background-image: url('../img/bg/bg-out.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   overflow: hidden;
+}
+
+.cover{
+    padding-top: 50px;
+    text-align: center;
+  }
+
+.navbar-brand{
+    font-family: 'Righteous', cursive;
+    padding-left: 90px;
+}
+
+.login {
+    border: 0;
+    height: 500px;
+    margin: auto;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.50);
+    border-radius: 16px;
+}
+
+.login h4{
+    margin-top: 100px;   
+}
+/* 
+.card-bg{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: auto;
+} */
+
+form .form-group input{
+    margin: auto;
+}
+
+form .user input{
+    margin: auto;
+    margin-top: 70px;
+}
+
+@media (max-width: 575.98px) {
+    form {
+        width: 90%;
+    }
+}
